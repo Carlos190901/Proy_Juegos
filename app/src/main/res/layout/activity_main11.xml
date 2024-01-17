@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity11">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/fondo7"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/mono"
+            android:text="Adivina Numero"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/numadv2"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="370dp"
+            android:backgroundTint="#9A08F3"
+            android:drawableStart="@drawable/ic_action_dado"
+            android:fontFamily="@font/thempo"
+            android:ems="20"
+            android:hint="Ingresa Numero"
+            android:inputType="number"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textColorHighlight="#EDF4F7"
+            android:textCursorDrawable="@android:color/holo_orange_light"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="310dp"
+            android:backgroundTint="#FC0076"
+            android:text="Adivinar"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/int1"
+            android:layout_width="118dp"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="270dp"
+            android:fontFamily="@font/cartoon"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tV2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <TextView
+            android:id="@+id/mensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:fontFamily="casual"
+            android:text=""
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/buttonSalir2"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="410dp"
+            android:backgroundTint="@android:color/holo_orange_dark"
+            android:text="Salir"
+            android:textColor="@color/black" />
+        <ImageButton
+            android:id="@+id/sonido2"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/play"
+            android:text="Button" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

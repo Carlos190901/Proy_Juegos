@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+  <RelativeLayout
+    android:layout_width="409dp"
+    android:layout_height="301dp"
+    android:background="@drawable/fondo5"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <EditText
+      android:id="@+id/textUsuario"
+      android:layout_width="238dp"
+      android:layout_height="59dp"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="80dp"
+      android:backgroundTint="#9A08F3"
+      android:drawableStart="@drawable/ic_action_user"
+      android:ems="20"
+      android:hint="jugador2"
+      android:inputType="textPersonName"
+      android:textAlignment="viewStart"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="#000000"
+      android:textColorHighlight="#EDF4F7"
+      android:textCursorDrawable="@android:color/holo_orange_light"
+      android:textSize="16sp"
+      android:textStyle="bold|italic" />
+
+    <EditText
+      android:id="@+id/textUsuario2"
+      android:layout_width="235dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="80dp"
+      android:layout_marginTop="30dp"
+      android:backgroundTint="#9A08F3"
+      android:drawableStart="@drawable/ic_action_user"
+      android:ems="20"
+      android:hint="Jugador 1"
+      android:inputType="textPersonName"
+      android:textAlignment="viewStart"
+      android:textAppearance="@style/TextAppearance.AppCompat.Large"
+      android:textColor="#000000"
+      android:textColorHighlight="#EDF4F7"
+      android:textCursorDrawable="@android:color/holo_orange_light"
+      android:textSize="16sp"
+      android:textStyle="bold|italic" />
+
+    <ImageButton
+      android:id="@+id/imageButtonIng"
+      android:layout_width="168dp"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="110dp"
+      android:layout_marginTop="140dp"
+      android:background="@color/cardview_shadow_end_color"
+      app:srcCompat="@drawable/letrero1" />
+
+    <TextView
+      android:id="@+id/textView"
+      android:layout_width="127dp"
+      android:layout_height="52dp"
+      android:layout_marginLeft="180dp"
+      android:layout_marginTop="170dp"
+      android:fontFamily="@font/thempo"
+      android:text="jugar"
+      android:textColor="#316B75"
+      android:textSize="20sp" />
+
+
+  </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

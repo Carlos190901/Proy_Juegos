@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="740dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fondo8"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002">
+
+
+        <Button
+            android:id="@+id/nivel1"
+            android:layout_width="191dp"
+            android:layout_height="37dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="#FFEB3B"
+            android:fontFamily="sans-serif-black"
+            android:text="1 NIVEL FACIL 1-50"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/nivel2"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240dp"
+            android:backgroundTint="#FDA102"
+            android:fontFamily="sans-serif-black"
+            android:text="2 NIVEL MEDIO 1-100"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/nivel3"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="320dp"
+            android:backgroundTint="#21C2F3"
+            android:fontFamily="sans-serif-black"
+            android:text="3 NIVEL DIFCIL 1-150"
+            android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/sonido2"
+            android:layout_width="69dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/play"
+            android:text="Button" />
+
+        <ImageButton
+            android:id="@+id/salida2"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/salida"
+            android:text="Button" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

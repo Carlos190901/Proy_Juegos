@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:background="#E0BCFF"
+    tools:context=".MainActivity3">
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="740dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/fondo1"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <EditText
+            android:id="@+id/textUsuario"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="430dp"
+            android:backgroundTint="#9A08F3"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:ems="20"
+            android:hint="Usuario"
+            android:inputType="textPersonName"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textColorHighlight="#EDF4F7"
+            android:textCursorDrawable="@android:color/holo_orange_light"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/textPass"
+            android:layout_width="235dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="480dp"
+            android:backgroundTint="#9A08F3"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:ems="20"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="viewStart"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textColorHighlight="#EDF4F7"
+            android:textCursorDrawable="@android:color/holo_orange_light"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/imageButtonIng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="530dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/letrero1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="127dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="560dp"
+            android:fontFamily="@font/snow"
+            android:text="Registrar"
+            android:textColor="#316B75"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="640dp"
+            android:text="¿Ya tienes una cuenta?" />
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="635dp"
+            android:backgroundTint="#316B75"
+            android:text="Ingresar"
+            android:textSize="10sp" />
+        <ImageButton
+            android:id="@+id/sonido2"
+            android:layout_width="69dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/play"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

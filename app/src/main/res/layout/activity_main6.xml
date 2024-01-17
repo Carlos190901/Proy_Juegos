@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".MainActivity6">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="220dp"
+            android:text="Computadora"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/NombreJugador"
+            android:layout_width="206dp"
+            android:layout_height="42dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="220dp"
+            android:fontFamily="sans-serif"
+            android:text="Nombre Jugador:"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/dataJugador"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/incognito" />
+
+        <ImageView
+            android:id="@+id/dataComputer"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/incognito" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="352dp"
+            android:layout_height="68dp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/south"
+            android:text="Piedra, Papel o Tijera"
+            android:textAlignment="center"
+            android:textColor="#316B75"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/ScoreJugador"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/south"
+            android:text="Score: 0"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/ScoreComputer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/south"
+            android:text="Score: 0"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="270dp"
+            android:text="Toca piedra Papel o tijera para Jugar "
+            android:textColor="#900C3F "
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+
+        <ImageButton
+            android:id="@+id/Piedra"
+            android:layout_width="151dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/piedra" />
+
+        <ImageButton
+            android:id="@+id/Papel"
+            android:layout_width="151dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/papel" />
+
+        <ImageButton
+            android:id="@+id/Tijera"
+            android:layout_width="151dp"
+            android:layout_height="166dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="300dp"
+            android:background="@color/cardview_shadow_end_color"
+            app:srcCompat="@drawable/tijera" />
+
+        <Button
+            android:id="@+id/buttonSalir2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="450dp"
+            android:backgroundTint="#198C35"
+            android:text="Salir" />
+
+        <ImageButton
+            android:id="@+id/sonido2"
+            android:layout_width="69dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/play"
+            android:text="Button" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
